@@ -7,9 +7,12 @@
 
 **Description/Purpose:** Returns the needed properties and values for composite material laminate. Uses created [LaminaClass](/LaminaClass) class.
 
+**Input:**  In the first couple of lines, you can enter the angle of each ply and wether or not it is symmetric.
+            Then a few lines down you can choose the material and set the thickness of the individual layers.
+            
 **Output:** This displays the material properties, laminate properties, Qb matrix, loads and moments, 
             ABD matrix, strains and curvatures, normal and shear stresses, normal and shear strain, 
-            shear and strain in   , average/smear properties, and the failure factors/criteria.
+            shear and strain in principal directions, average/smear properties, and the failure factors/criteria.
 
 **Usage/Example:**
 
