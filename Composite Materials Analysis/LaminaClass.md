@@ -5,17 +5,35 @@
 **Language:** MATLAB
 
 
-**Description/Purpose:** Returns the needed properties and values for composite material laminate. Uses created [LaminaClass](/LaminaClass) class.
+**Description/Purpose:** Class to hold the needed properties and values for composite material lamina. 
 
-**Output:** This displays the material properties, laminate properties, Qb matrix, loads and moments, 
-            ABD matrix, strains and curvatures, normal and shear stresses, normal and shear strain, 
-            shear and strain in   , average/smear properties, and the failure factors/criteria.
-
-**Usage/Example:**
-
-For a symmetric carbon fiber 5-layer laminate of angles: 30,-30,0,-30,30. Layer thickness is 1.5e-4 m
+**Usage:** See example of it's use in [file](/CLT)
 
 ```
-LaminateAngles = [30,-30,0,-30,30];
-symmetric = true;
+classdef LaminaClass
+   properties
+      material
+      theta
+      thickness
+      E1
+      E2
+      v12
+      v21
+      G12
+      Q
+      S
+      a
+      axy
+      %Failure Stresses
+      sigmaT1
+      sigmaC1
+      sigmaT2
+      sigmaC2
+      tauF12
+   end
+   methods
+    
+      
+   end
+end
 ```
