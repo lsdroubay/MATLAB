@@ -2,15 +2,10 @@
 
 **Author:** Landon Droubay
 
-**Language:** C++. The code can be compiled using the GNU C compiler (gcc).
+**Language:** MATLAB
 
-For example,
 
-    gcc ConjugateGradient.cpp
-
-will produce an executable **./a.exe** than can be executed. 
-
-**Description/Purpose:** Returns the solution to the given .
+**Description/Purpose:** Returns the needed properties and values for composite material laminate. Uses created [LaminaClass](/LaminaClass) class.
 
 **Output:** This displays the material properties, laminate properties, Qb matrix, loads and moments, 
             ABD matrix, strains and curvatures, normal and shear stresses, normal and shear strain, 
