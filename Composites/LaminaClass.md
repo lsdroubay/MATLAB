@@ -9,7 +9,7 @@
 
 **Usage:** See example of it's use in my [Classical Lamination Theory Analysis](/MATLAB/Composites/CLT)
 
-```
+```MATLAB
 classdef LaminaClass
    properties
       material
