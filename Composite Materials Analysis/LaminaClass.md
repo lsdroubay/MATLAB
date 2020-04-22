@@ -7,7 +7,7 @@
 
 **Description/Purpose:** Class to hold the needed properties and values for composite material lamina. 
 
-**Usage:** See example of it's use in [file](/CLT)
+**Usage:** See example of it's use in my [Classical Lamination Theory Analysis](/CLT)
 
 ```
 classdef LaminaClass
