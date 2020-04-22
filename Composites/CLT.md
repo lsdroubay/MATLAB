@@ -18,7 +18,7 @@
 
 For a symmetric carbon fiber 5-layer laminate of angles: 30,-30,0,-30,30. Layer thickness is 1.5e-4 m
 
-```
+```MATLAB
 LaminateAngles = [30,-30,0,-30,30];
 symmetric = true;
 
