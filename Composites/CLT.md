@@ -5,7 +5,7 @@
 **Language:** MATLAB
 
 
-**Description/Purpose:** Returns the needed properties and values for composite material laminate. Uses created [LaminaClass](/LaminaClass) class.
+**Description/Purpose:** Returns the needed properties and values for composite material laminate. Uses created [LaminaClass](/MATLAB/Composites/LaminaClass) class.
 
 **Input:**  In the first couple of lines, you can enter the angle of each ply and wether or not it is symmetric.
             Then a few lines down you can choose the material and set the thickness of the individual layers.
