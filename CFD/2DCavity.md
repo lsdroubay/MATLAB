@@ -9,7 +9,7 @@
                         The cavity has a horizontal velocity, u, of 1 at the top and vertical velocity, v = 0. The edges apply
                         a no-slip condition. Pressure, P, at the very bottom of the cavity is set equal to 0. The Reynolds 
                         number is 100.
-                        <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+                        <img align="right" width="100" height="100" src="/MATLAB/CFD/stagGrid.PNG">
                         
 *Other problem-specific parameters:*
 ```MATLAB
