@@ -9,7 +9,7 @@
                         The cavity has a horizontal velocity, u, of 1 at the top and vertical velocity, v = 0. The edges apply
                         a no-slip condition. Pressure, P, at the very bottom of the cavity is set equal to 0. The Reynolds 
                         number is 100.
-                        <img align="right" width="100" height="100" src="/MATLAB/CFD/stagGrid.PNG">
+                        <img align="center" width="100" height="100" src="/MATLAB/CFD/stagGrid.PNG">
                         
 *Other problem-specific parameters:*
 ```MATLAB
@@ -28,7 +28,7 @@ C = 1;
 dt = C*min([0.25*dx*dx/nu,dx/U_lid]); %time-step
 ```
 
-![2DCavity](/MATLAB/CFD/2DCavity.png){:height="50%" width="50%"}
+![2DCavity](/MATLAB/CFD/2DCavity.png){:align = "center" height="50%" width="50%"}
 
 
 Momentum and velocity are solved as the Burgers Equation using the conservative upwind scheme. The pressure poisson equation is 
