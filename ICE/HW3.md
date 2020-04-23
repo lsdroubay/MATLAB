@@ -23,7 +23,7 @@ MW_int = 28.97; % molecular weight of intake charge [kg/kmol]
 
 With these input parameters, the following plots are generated with the MATLAB code following.
 
-![BMEP](https://lsdroubay.github.com/MATLAB/ICE/BMEP.png)
+![BMEP](/MATLAB/ICE/BMEP.png)
 
 ![Power](/MATLAB/ICE/Power.png)
 
