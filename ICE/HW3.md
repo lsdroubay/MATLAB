@@ -23,10 +23,10 @@ MW_int = 28.97; % molecular weight of intake charge [kg/kmol]
 
 With these input parameters, the following plots are generated with the MATLAB code following.
 
-![BMEP](https://github.com/lsdroubay/MATLAB/blob/master/ICE/BMEP.png)
-![Power](https://github.com/lsdroubay/MATLAB/blob/master/ICE/Power.png)
-![Efficiency](https://github.com/lsdroubay/MATLAB/blob/master/ICE/Efficiency.png)
-![Torque](https://github.com/lsdroubay/MATLAB/blob/master/ICE/Torque.png)
+![BMEP](/MATLAB/blob/master/ICE/BMEP.png)
+![Power](/MATLAB/blob/master/ICE/Power.png)
+![Efficiency](/MATLAB/blob/master/ICE/Efficiency.png)
+![Torque](/MATLAB/blob/master/ICE/Torque.png)
 
 
 ```MATLAB
