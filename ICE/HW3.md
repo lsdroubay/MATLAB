@@ -1,4 +1,4 @@
-**Analysis using Classical Lamination Theory**
+**Engine Analysis: BMEP, Brake Power, Efficiencies, and Torque**
 
 **Author:** Landon Droubay
 
