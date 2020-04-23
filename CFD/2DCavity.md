@@ -27,39 +27,36 @@ C = 1;
 dt = C*min([0.25*dx*dx/nu,dx/U_lid]); %time-step
 ```
 
-![2DCavity](/MATLAB/CFD/2DCavity.png)
 ![2DCavity](/MATLAB/CFD/2DCavity.png){:height="50%" width="50%"}
 
 
 Momentum and velocity are solved as the Burgers Equation using the conservative upwind scheme. The pressure poisson equation is 
 solved using the SOR iterative method. P, u, and v are all solved using staggered grids.
 
-![StagGrid](/MATLAB/CFD/stagGrid.PNG)
+![StagGrid](/MATLAB/CFD/stagGrid.PNG){:height="40%" width="40%"}
 
-### Solution:
+## Solution:
 
 Below is a plot of the infinity norm of the residual returned from the SOR-pressure poisson solver. 
 This shows great convergence of the pressure. Below that is plotted both U and V in the center of the
 cavity compared to [trusted experimental data](https://www.sciencedirect.com/science/article/pii/0021999182900584).
 
-![SORConverge](/MATLAB/CFD/SORConverge.png)
+![SORConverge](/MATLAB/CFD/SORConverge.png){:height="50%" width="50%"}
 
-![UData](/MATLAB/CFD/UData.png)
-
-![VData](/MATLAB/CFD/VData.png)
+![UData](/MATLAB/CFD/UData.png){:height="50%" width="50%"}  ![VData](/MATLAB/CFD/VData.png){:height="50%" width="50%"}
 
 
-**Example:**
+*Example:*
 
 The final results for u, v, and P are plotted individually below. As shown above, the resuts have converged to an accurate solution.
 
-![UVelocity](/MATLAB/CFD/CavityU.png)
+![UVelocity](/MATLAB/CFD/CavityU.png){:height="85%" width="85%"}
 
-![VVelocity](/MATLAB/CFD/CavityV.png)
+![VVelocity](/MATLAB/CFD/CavityV.png){:height="85%" width="85%"}
 
-![Pressure](/MATLAB/CFD/CavityPressure.png)
+![Pressure](/MATLAB/CFD/CavityPressure.png){:height="85%" width="85%"}
 
-Some measured properties of the intake and exhaust are also included:
+## Implementation:
 ```MATLAB
 %% PARAMETERS AND PROPERTIES
 
