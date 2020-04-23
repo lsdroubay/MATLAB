@@ -43,7 +43,7 @@ cavity compared to [trusted experimental data](https://www.sciencedirect.com/sci
 
 ![SORConverge](/MATLAB/CFD/SORConverge.png){:height="50%" width="50%"}
 
-![UData](/MATLAB/CFD/UData.png){:height="30%" width="30%"}![VData](/MATLAB/CFD/VData.png){:height="30%" width="30%"}
+![UData](/MATLAB/CFD/UData.png){:height="40%" width="40%"}![VData](/MATLAB/CFD/VData.png){:height="40%" width="40%"}
 
 
 *Example:*
