@@ -33,7 +33,7 @@ dt = C*min([0.25*dx*dx/nu,dx/U_lid]); %time-step
 Momentum and velocity are solved as the Burgers Equation using the conservative upwind scheme. The pressure poisson equation is 
 solved using the SOR iterative method. P, u, and v are all solved using staggered grids.
 
-![StagGrid](/MATLAB/CFD/stagGrid.PNG){:height="40%" width="40%"}
+![StagGrid](/MATLAB/CFD/stagGrid.PNG){:height="50%" width="50%"}
 
 ## Solution:
 
@@ -43,7 +43,7 @@ cavity compared to [trusted experimental data](https://www.sciencedirect.com/sci
 
 ![SORConverge](/MATLAB/CFD/SORConverge.png){:height="50%" width="50%"}
 
-![UData](/MATLAB/CFD/UData.png){:height="50%" width="50%"}  ![VData](/MATLAB/CFD/VData.png){:height="50%" width="50%"}
+![UData](/MATLAB/CFD/UData.png){:height="30%" width="30%"}![VData](/MATLAB/CFD/VData.png){:height="30%" width="30%"}
 
 
 *Example:*
