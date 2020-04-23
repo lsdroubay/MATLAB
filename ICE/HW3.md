@@ -21,10 +21,12 @@ T_int = 330; % intake manifold temperature [K]
 MW_int = 28.97; % molecular weight of intake charge [kg/kmol]
 ```
 
-With these input parameters, the foloowing plots are generated with the MATLAB code following.
-![BMEP](/MATLAB/ICE/BMEP.png)
-![BMEP2](https://github.com/lsdroubay/MATLAB/blob/master/ICE/BMEP.png)
-![BMEP](https://user-images.githubusercontent.com/46492207/80048767-b7382800-84d6-11ea-8f79-55ee7b5366fc.png)
+With these input parameters, the following plots are generated with the MATLAB code following.
+
+![BMEP](https://github.com/lsdroubay/MATLAB/blob/master/ICE/BMEP.png)
+![Power](https://github.com/lsdroubay/MATLAB/blob/master/ICE/Power.png)
+![Efficiency](https://github.com/lsdroubay/MATLAB/blob/master/ICE/Efficiency.png)
+![Torque](https://github.com/lsdroubay/MATLAB/blob/master/ICE/Torque.png)
 
 
 ```MATLAB
