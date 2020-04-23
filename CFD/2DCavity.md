@@ -33,7 +33,7 @@ dt = C*min([0.25*dx*dx/nu,dx/U_lid]); %time-step
 Momentum and velocity are solved as the Burgers Equation using the conservative upwind scheme. The pressure poisson equation is 
 solved using the SOR iterative method. P, u, and v are all solved using staggered grids.
 
-![StagGrid](/MATLAB/CFD/stagGrid.PNG){:height="50%" width="50%"}
+![StagGrid](/MATLAB/CFD/stagGrid.PNG){:height="80%" width="80%"}
 
 ## Solution:
 
@@ -41,9 +41,9 @@ Below is a plot of the infinity norm of the residual returned from the SOR-press
 This shows great convergence of the pressure. Below that is plotted both U and V in the center of the
 cavity compared to [trusted experimental data](https://www.sciencedirect.com/science/article/pii/0021999182900584).
 
-![SORConverge](/MATLAB/CFD/SORConverge.png){:height="50%" width="50%"}
+![SORConverge](/MATLAB/CFD/SORConverge.png){:height="70%" width="70%"}
 
-![UData](/MATLAB/CFD/UData.png){:height="40%" width="40%"}![VData](/MATLAB/CFD/VData.png){:height="40%" width="40%"}
+![UData](/MATLAB/CFD/UData.png){:height="50%" width="50%"}![VData](/MATLAB/CFD/VData.png){:height="50%" width="50%"}
 
 
 *Example:*
