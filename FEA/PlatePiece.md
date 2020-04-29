@@ -15,7 +15,8 @@ Three rectangular cutouts are found in the middle to reduce weight. Further opti
 
 ![Geometry](/MATLAB/FEA/PlatePieceFEAGeom.png)
 
-A force of 
+A force of 100 lb is applied on the right edge of the hole on the right. The Young's Modulus applied is 30,000 ksi.
+The results in the plot below are in inces and psi.
 
 
 
