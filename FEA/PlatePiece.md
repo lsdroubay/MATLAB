@@ -22,7 +22,7 @@ The results in the plot below are in inces and psi.
 
 ![Stress](/MATLAB/FEA/PlatePieceFEAStress.png)
 
-The maority of the work in the code below is devoted to creating the nodes and edges that form the geometry. For more detail on the FEA
+The majority of the work in the code below is devoted to creating the nodes and edges that form the geometry. For more detail on the FEA
 methods and routines, see the [ERSL](https://ersl.wisc.edu/research.html) web page.
 
 
